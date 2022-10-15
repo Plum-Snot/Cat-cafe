@@ -1,0 +1,35 @@
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Pacifico',cursive;
+}
+
+/* อย่าไปแตะมัน */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* อย่าไปแตะมัน */
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text {
+    font-size: 70pt;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+.nav {
+    
+}
